@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+
+#livecenter-havelink {
+  background-color: #fff1f0;
+  border: 1px solid #ffa39e;
+  padding: 32px;
+}
+
+#livecenter-havelink h3 {
+  margin-top: 0;
+}
+
+#livecenter {
+  font-family: "Raleway";
+  box-sizing: border-box;
+}
+#livecenter-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 32px;
+}
+
+#livecenter-api-link {
+  width: 350px;
+  padding: 7px;
+  box-shadow: none;
+  border: 1px solid #eee;
+}
+.livecenter-list-element {
+  border-radius: 10px;
+  width: 250px;
+  margin: 8px;
+  padding: 16px;
+  -webkit-box-shadow: 0px 0px 21px -1px rgba(0, 0, 0, 0.07);
+  -moz-box-shadow: 0px 0px 21px -1px rgba(0, 0, 0, 0.07);
+  box-shadow: 0px 0px 21px -1px rgba(0, 0, 0, 0.07);
+  background: white;
+  -webkit-transition: 0.3s; /* Safari prior 6.1 */
+  transition: 0.3s;
+}
+
+.livecenter-list-element:hover {
+  -webkit-transition: 0.3s; /* Safari prior 6.1 */
+  transition: 0.3s;
+  -webkit-box-shadow: 0px 0px 21px -1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 21px -1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 21px -1px rgba(0, 0, 0, 0.3);
+}
+
+.livecenter-code {
+  background: #3c3f43;
+  padding: 8px;
+  color: #b0bac9;
+}
+
+.livecenter-button {
+  cursor: pointer;
+  padding: 8px;
+  border: 1px solid #eee;
+  background: white;
+}
+
+.livecenter-button-copy {
+  cursor: pointer;
+  border: 1px solid #3c3f43;
+  color: #3c3f43;
+  background: transparent;
+  padding: 8px;
+  text-align: center;
+}
+#skin-selector {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#skin-selector label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#skin-selector input {
+  margin: 0 0 8px 0;
+  padding: 7px;
+  box-shadow: none;
+  border: 1px solid #eee;
+}
+
+.livecenter-skin-selector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 16px;
+  padding: 16px;
+  box-shadow: 0px 0px 21px -1px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+}
+
+.livecenter-skin-selector:hover {
+  -webkit-transition: 0.3s; /* Safari prior 6.1 */
+  transition: 0.3s;
+  -webkit-box-shadow: 0px 0px 21px -1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 21px -1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 21px -1px rgba(0, 0, 0, 0.3);
+}
+
+.livecenter-skin-selector input:checked {
+  border: 1px solid blue;
+}
+
+.livecenter-green {
+  color: green;
+}
+.livecenter-red {
+  color: red;
+}
+.livecenter-copied {
+  background: #14b0e657;
+  -webkit-transition: 0.3s; /* Safari prior 6.1 */
+  transition: 0.3s;
+}
+
+.livecenter-copied::after {
+  content: "Copied!";
+  padding: 16px 0 0 0;
+  display: block;
+}
+
+#livecenter-search-input {
+  width: 100%;
+  box-shadow: none;
+  border: 1px solid #eee;
+  -webkit-box-shadow: 0px 0px 21px -1px rgba(0, 0, 0, 0.07);
+  -moz-box-shadow: 0px 0px 21px -1px rgba(0, 0, 0, 0.07);
+  box-shadow: 0px 0px 21px -1px rgba(0, 0, 0, 0.07);
+  height: 40px;
+}
+
+#livecenter-search {
+  margin: 16px 10px;
+  position: relative;
+  width: 350px;
+}
+
+#livecenter-search svg {
+  position: absolute;
+  top: 9px;
+  right: 10px;
+  fill: #3c3f43;
+}
+
+#livecenter-error-message {
+  display: none;
+  color: red;
+}
+
+a.add-new-channel {
+  display: flex;
+  align-items: center;
+}
